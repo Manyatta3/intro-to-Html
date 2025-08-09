@@ -1,66 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO-friendly metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn the basics of HTML5, accessibility, and SEO with a simple semantic web page example.">
-    <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic HTML, Web Design">
+    <meta name="description" content="HTML5 advanced content and form creation with lists, tables, media, and native form validation.">
     <meta name="author" content="Your Name">
-    <title>HTML5 Accessibility & SEO Basics</title>
+    <title>HTML5 Enhanced Content & Forms</title>
 </head>
 <body>
-    <!-- Header section -->
+
+    <!-- Header -->
     <header>
-        <h1>HTML5 Accessibility & SEO Basics</h1>
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#accessibility">Accessibility</a></li>
-                <li><a href="#seo">SEO Basics</a></li>
-                <li><a href="#conclusion">Conclusion</a></li>
-            </ul>
-        </nav>
+        <h1>HTML5 Enhanced Content & Form Example</h1>
+        <p>This page demonstrates lists, tables, embedded media, and a fully functional HTML5 form.</p>
     </header>
 
-    <!-- Main content -->
     <main>
-        <article>
-            <section id="introduction">
-                <h2>Introduction</h2>
-                <p>HTML5 provides semantic elements that make web pages more accessible and easier to understand for both humans and search engines. This example shows how to structure a simple, semantic web page while applying accessibility and SEO best practices.</p>
-            </section>
+        <!-- Section 1: Lists -->
+        <section>
+            <h2>Popular Web Development Languages</h2>
+            <h3>Ordered List (Top 5)</h3>
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>PHP</li>
+            </ol>
 
-            <section id="accessibility">
-                <h2>Accessibility in HTML5</h2>
-                <p>Accessibility ensures that all users, including those with disabilities, can navigate and interact with a website effectively. Semantic tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> help assistive technologies understand your content’s layout.</p>
-                <ul>
-                    <li>Use proper heading hierarchy (<code>h1</code> → <code>h2</code> → <code>h3</code>).</li>
-                    <li>Provide descriptive link text.</li>
-                    <li>Use <code>alt</code> text for images.</li>
-                </ul>
-            </section>
+            <h3>Unordered List (Frameworks & Libraries)</h3>
+            <ul>
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>Angular</li>
+                <li>Django</li>
+                <li>Laravel</li>
+            </ul>
+        </section>
 
-            <section id="seo">
-                <h2>SEO Basics</h2>
-                <p>SEO (Search Engine Optimization) improves your website’s visibility on search engines. HTML5 structure supports SEO by clearly defining content areas and providing meaningful context through headings and metadata.</p>
-                <ul>
-                    <li>Include relevant keywords naturally in your text.</li>
-                    <li>Use meta tags for descriptions and authorship.</li>
-                    <li>Ensure your content is easy to read and logically structured.</li>
-                </ul>
-            </section>
+        <!-- Section 2: Table -->
+        <section>
+            <h2>Comparison of Web Technologies</h2>
+            <table border="1" cellpadding="5">
+                <caption>Feature Comparison Table</caption>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Primary Use</th>
+                        <th>Learning Difficulty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Structure of web pages</td>
+                        <td>Easy</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Styling web pages</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Interactive web functionality</td>
+                        <td>Challenging</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-            <section id="conclusion">
-                <h2>Conclusion</h2>
-                <p>By combining semantic HTML5 structure, accessibility best practices, and basic SEO principles, you can create a web page that is user-friendly, inclusive, and discoverable by search engines.</p>
-            </section>
-        </article>
+        <!-- Section 3: Media -->
+        <section>
+            <h2>HTML5 Media Example</h2>
+            <figure>
+                <img src="Programming.jpg" alt="Programming" width="400" height="200">
+                <figcaption>Example image embedded using HTML5 <code>&lt;img&gt;</code> tag.</figcaption>
+            </figure>
+
+            <h3>Audio Example</h3>
+            <audio controls>
+                <source src="cyberpunk.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Example</h3>
+            <video width="400" controls>
+                <source src="Technology.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- Section 4: Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form action="/submit-form.php" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Emerald Manyatta" required minlength="3"><br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+255 700 000 000" pattern="^\+?[0-9\s\-]{7,15}$" required><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Account Details</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Choose a username" required minlength="4"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="********" required minlength="6"><br><br>
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="********" required minlength="6"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>Preferred Contact Method:</p>
+                    <label><input type="radio" name="contact" value="email" required> Email</label>
+                    <label><input type="radio" name="contact" value="phone"> Phone</label><br><br>
+
+                    <label for="interests">Select Interests:</label>
+                    <select id="interests" name="interests[]" multiple required>
+                        <option value="html">HTML5</option>
+                        <option value="css">CSS3</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                    </select><br><br>
+
+                    <label><input type="checkbox" name="terms" required> I agree to the Terms and Conditions</label>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear Form">
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Mariam Salum. All rights reserved.</p>
+        <p>&copy; 2025 Mariam Salum Mahmoud. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
