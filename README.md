@@ -1,34 +1,26 @@
-HTML5 Enhanced Content & Forms
+HTML5 + Accessibility & SEO Basics
 
 📌 Overview
-This project is a demonstration of advanced HTML5 content elements and form creation techniques.  
-It showcases the use of lists, tables, and embedded media to organize and present information,  
-followed by a fully functional HTML5 form with built-in validation—no JavaScript required.
+This project is a simple semantic HTML5 web page created for the HTML5 + Accessibility & SEO Basics assignment.  
+It demonstrates how to structure a page for human readability, assistive technologies, and search engine optimization(SEO).
 
 🎯 Objectives
-- Use lists and tables effectively for clarity and accessibility.
-- Embed media content such as images, audio, and video using semantic HTML5 elements.
-- Build a structured, user-friendly HTML5 form.
-- Apply various HTML5 form attributes to enhance usability.
-- Implement built-in validation features to minimize incorrect data entry.
+- Use semantic HTML5 tags for a clean, meaningful structure.
+- Apply accessibility best practices for better navigation with screen readers.
+- Implement beginner-friendly SEO techniques for improved discoverability.
 
 🛠 Technologies Used
-- HTML5(No CSS or JavaScript)
+- HTML5 (No CSS or JavaScript)
 
 ✨ Features
-- Content Organization:
-  - Ordered and unordered lists.
-  - Accessible table with captions, headers, and body.
-- Media Integration:
-  - Embedded image with alt text.
-  - Audio and video examples with native HTML5 controls.
-- HTML5 Form:
-  - `<fieldset>` and `<legend>` for logical grouping.
-  - Various input types: text, email, date, tel, password, radio, checkbox, select (multiple).
-  - Accessibility-focused labels.
-  - Validation with `required`, `type`, `minlength`, `pattern`, and placeholders.
-- Semantic Layout:`<header>`, `<main>`, `<section>`, `<footer>`.
+- Semantic HTML5 structure: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`.
+- Accessibility improvements:
+  - Logical heading hierarchy (`h1` → `h2` → `h3`).
+  - `aria-label` for navigation.
+  - Descriptive link text.
+- SEO-friendly content:
+  - Meta description and keywords.
+  - Keyword-rich headings and content.
+  - Human-readable, crawler-friendly text.
 
 📂 File Structure
-# Enhanced Html5
-# Enhanced-Html5
